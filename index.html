@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <title>Резюме</title>
+ </head>
+ <body>
+   <script type="text/javascript">
+   function showSTR(trueTel) {
+    document.getElementById('translationTel').firstChild.replaceData (0 , trueTel.length, trueTel);
+  }
+</script>
+     <div class="wrapper">
+         <div class="header">
+             <div class="logo"><img src="images/WD.png" width="85" height="38"></div>
+             <ul class="menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#about">Об авторе</a></li>
+                <li><a href="#">Процесс</a></li>
+             </ul>
+             <div class="phone" style="display:inline-block;">
+               <p style="margin-left: 50px;" id = "translationTel">+7 XXX XXX XX XX <button id = "showTel" onclick = "showSTR('+7 902 611 49 18')" style="margin-left:10px; background-color:#34547A;padding:5px;color:white;">Показать телефон</button></p>
+             </div>
+             <div class="header-bottom">
+                <div class="desc-logo"><img src="images/Frame.png"></div>
+                <div class="description">
+                    <h1>Back-end и front-end</h1>
+                    <p>Сегодня уже мало создавать и продвигать сайты. Цифровые коммуникации<br> гораздо шире.</p>
+                    <button>Написать мне</button>
+                </div>
+             </div>
+         </div>
+         <div class="about">
+             <h2>Обо мне</h2>
+             <p>Меня зовут Артем Валиахметов<br> Я действующий веб-программист. Владею технологиями 1C-Битрикс<br>PHP и JS. Есть опыт работы в таких компаниях как Dextra, <br>проходил стажировку в Xpage.</p>
+         </div>
+         <div class="summary">
+            <div class="items">
+                <div class="item"><img src="images/numbers__item.png"/></div>
+                <div class="item"><img src="images/numbers__item.png"/></div>
+                <div class="item"><img src="images/numbers__item.png"/></div>
+                <div class="item"><img src="images/numbers__item.png"/></div>
+                <div class="item"><img src="images/numbers__item.png"/></div>
+                <div class="item"><img src="images/numbers__item.png"/></div>
+            </div>
+         </div>
+         <div class="skills">
+             <div class="left-col">
+                 <h2>Мои навыки</h2>
+                 <div class="one">
+                     <span>PHP</span><br><br>
+                     <div class="blue_line"><span></span></div><div class="gray_line"><span></span></div>
+                 </div>
+                 <div class="one">
+                     <span>HTML+CSS</span><br><br>
+                     <div class="blue_line"><span></span></div><div class="gray_line"><span></span></div>
+                 </div>
+                 <div class="one">
+                     <span>JS</span><br><br>
+                     <div class="blue_line"><span></span></div><div class="gray_line"><span></span></div>
+                 </div>
+             </div>
+             <div class="right-col"><img src="images/AVI.jpg"/></div>
+         </div>
+         <div class="work">
+             <h2>Как я работаю</h2>
+             <p>Пример выполнения моей работы.<br>Так я выполняю каждую свою задачу</p>
+             <p class="pict-work"><img src="images/Rectangle 5.png"/></p>
+        </div>
+        <!-- <div class="gallery">
+            <img src="images/Rectangle 7.png" alt="">
+            <img src="images/Rectangle 7.1.png" alt="">
+            <img src="images/Rectangle 7.png" alt="">
+            <img src="images/Rectangle 7.3.png" alt="">
+            <img src="images/Rectangle 7.3.png" alt="">
+            <img src="images/Rectangle 7.png" alt="">
+            <img src="images/Rectangle 7.3.png" alt="">
+            <img src="images/Rectangle 7.png" alt="">
+        </div> -->
+        <div class="icons">
+            <img src="images/Rectangle 9.png" alt="">
+            <img src="images/Rectangle 9.png" alt="">
+            <img src="images/Rectangle 9.png" alt="">
+            <img src="images/Rectangle 9.png" alt="">
+        </div>
+        <div class="feedback">
+            <h2>Хотите веб-сайт?</h2>
+            <p>Сделаю максимально быстро и качественно.<br> Разрабатываю сайты на WordPress, <br>NetCat, 1C-Битрикс</p>
+            <form style="text-align:center;margin-top:30px;">
+                <input type="text" value="Ваше имя">
+                <input type="text" value="Ваш email"><br>
+                <textarea>Сообщение</textarea><br>
+                <input type="submit"/>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="author">
+                <p>Валиахметов Артем</p>
+                <p>(с) 2020. Все права защищены.</p>
+            </div>
+            <div class="vk">
+                <a href="https://vk.com/ataturkkanuni"><img src="images/Vector.png" alt=""></a>
+                <a href="https://vk.com/ataturkkanuni"><img src="images/Vector.png" alt=""></a>
+                <a href="https://vk.com/ataturkkanuni"><img src="images/Vector.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+ </body>
+</html>

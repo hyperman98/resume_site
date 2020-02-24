@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Roboto-Regular.ttf"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+div {
+  box-sizing: border-box; }
+
+body {
+  width: 100%; }
+  body .wrapper {
+    width: 100%; }
+    body .wrapper .header {
+      width: 100%;
+      float: left;
+      background-color: #EEEFF1;
+      padding: 30px; }
+      body .wrapper .header .logo {
+        float: left;
+        margin-left: 402px;
+        margin-top: 24px; }
+      body .wrapper .header .menu {
+        list-style: none;
+        margin-left: 50%;
+        margin-top: 25px;
+        text-transform: uppercase; }
+        body .wrapper .header .menu li {
+          float: left;
+          margin-right: 1px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 0.1em;
+          margin-left: 35px; }
+          body .wrapper .header .menu li a {
+            text-decoration: none;
+            color: black; }
+            body .wrapper .header .menu li a:hover {
+              color: #34547A; }
+      body .wrapper .header .header-bottom {
+        display: inline-block;
+        padding: 5%;
+        padding-left: 19%; }
+        body .wrapper .header .header-bottom .description {
+          float: left;
+          background-color: #EEEFF1;
+          display: inline-block;
+          margin: 30px;
+          padding: 60px; }
+          body .wrapper .header .header-bottom .description h1 {
+            font-family: 'Roboto';
+            font-size: 48px;
+            line-height: 79px; }
+          body .wrapper .header .header-bottom .description p {
+            font-family: 'Roboto';
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 15px; }
+          body .wrapper .header .header-bottom .description button {
+            color: white;
+            background: #34547A;
+            padding: 15px;
+            width: 225px;
+            font-family: 'Roboto';
+            font-size: 16px;
+            line-height: 26px;
+            border: none;
+            margin-top: 15px; }
+        body .wrapper .header .header-bottom .desc-logo {
+          float: left;
+          display: inline-block;
+          padding: 80px; }
+    body .wrapper .about {
+      float: left;
+      width: 100%;
+      margin-top: 60px;
+      padding: 90px; }
+      body .wrapper .about h2 {
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px; }
+      body .wrapper .about p {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+        margin-top: 10px; }
+    body .wrapper .summary {
+      width: 100%;
+      float: left;
+      background-color: #34547A;
+      display: inline-block;
+      padding: 80px; }
+      body .wrapper .summary .items {
+        margin-left: 200px; }
+        body .wrapper .summary .items .item {
+          display: inline-block;
+          margin-left: 60px; }
+    body .wrapper .skills {
+      width: 100%;
+      padding: 100px;
+      padding-left: 290px;
+      float: left;
+      background-color: #E5E5E5; }
+      body .wrapper .skills .left-col {
+        float: left;
+        display: inline-block; }
+        body .wrapper .skills .left-col h2 {
+          font-weight: 500;
+          font-family: 'Roboto';
+          font-size: 32px;
+          line-height: 37px; }
+        body .wrapper .skills .left-col .one {
+          margin-top: 20px; }
+          body .wrapper .skills .left-col .one span {
+            font-family: 'Roboto';
+            font-size: 16px;
+            line-height: 26px;
+            color: #727272; }
+          body .wrapper .skills .left-col .one .blue_line {
+            display: inline-block;
+            width: 390px;
+            height: 5px;
+            background-color: #34547A; }
+          body .wrapper .skills .left-col .one .gray_line {
+            display: inline-block;
+            width: 60px;
+            height: 5px;
+            background-color: #c4c4c4; }
+      body .wrapper .skills .right-col {
+        float: right; }
+        body .wrapper .skills .right-col img {
+          width: 555px;
+          height: 350px; }
+    body .wrapper .work {
+      float: left;
+      display: block;
+      padding: 30px;
+      width: 100%;
+      background-color: #EEEFF1; }
+      body .wrapper .work h2 {
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px; }
+      body .wrapper .work p {
+        margin-top: 40px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272; }
+      body .wrapper .work .pic-work {
+        text-align: center; }
+        body .wrapper .work .pic-work img {
+          width: 500px;
+          height: 340px; }
+    body .wrapper .gallery img {
+      width: 420px;
+      height: 400px; }
+    body .wrapper .icons {
+      width: 100%;
+      padding: 30px;
+      padding-left: 14%;
+      background: #E5E5E5; }
+      body .wrapper .icons img {
+        margin-left: 50px; }
+    body .wrapper .feedback {
+      width: 100%;
+      padding: 20px;
+      background-color: #EEEFF1;
+      padding: 55px; }
+      body .wrapper .feedback h2 {
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px; }
+      body .wrapper .feedback p {
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 26px; }
+      body .wrapper .feedback input[type=text] {
+        background-color: white;
+        width: 255px;
+        height: 50px;
+        margin-left: 20px;
+        border: none; }
+      body .wrapper .feedback textarea {
+        margin-top: 20px;
+        width: 540px;
+        height: 175px;
+        margin-left: 20px;
+        border: none; }
+      body .wrapper .feedback input[type=submit] {
+        color: white;
+        background: #34547A;
+        padding: 10px;
+        border: none;
+        margin-top: 15px;
+        padding-left: 15px; }
+    body .wrapper .footer {
+      width: 100%;
+      background-color: #34547A;
+      float: left;
+      padding: 50px; }
+      body .wrapper .footer .author {
+        color: white;
+        margin-left: 15%;
+        float: left; }
+      body .wrapper .footer .vk {
+        float: right;
+        margin-right: 17%; }
+        body .wrapper .footer .vk img {
+          margin-left: 15px; }
